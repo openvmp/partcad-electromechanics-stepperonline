@@ -1,0 +1,39 @@
+desc: STEPPERONLINE
+url: https://stepperonline.com/
+parts:
+  brushless_driver/bld510s:
+    desc: Digital Brushless DC Motor Driver 18V-50VDC Max 10A 200W
+    vendor: stepperonline
+    sku: BLD-510S
+    url: https://www.omc-stepperonline.com/digital-brushless-dc-motor-driver-18v-50vdc-max-10a-200w-bld-510s
+    type: step
+
+  gearbox/nema17-planetary-10:
+    desc: MG Series Planetary Gearbox Gear Ratio 10:1 Backlash 30 arc-min for Nema 17 Stepper Motor
+    vendor: stepperonline
+    sku: MG17-G10
+    url: https://www.omc-stepperonline.com/mg-series-planetary-gearbox-gear-ratio-10-1-backlash-30-arc-min-for-nema-17-stepper-motor-mg17-g10
+    type: step
+
+  gearbox/nema17-planetary-100:
+    desc: MG Series Planetary Gearbox Gear Ratio 100:1 Backlash 50 arc-min for Nema 17 Stepper Motor
+    vendor: stepperonline
+    sku: MG17-G100
+    url: https://www.omc-stepperonline.com/mg-series-planetary-gearbox-gear-ratio-100-1-backlash-50-arc-min-for-nema-17-stepper-motor-mg17-g100
+    type: step
+
+  stepper/nema17-72Ncm-with-brake:
+    desc: P Series Nema 17 Stepper Motor 72Ncm/101.98oz.in with Electromagnetic Brake
+    vendor: stepperonline
+    sku: 17BK05-07
+    url: https://www.omc-stepperonline.com/p-series-nema-17-stepper-motor-72ncm-101-98oz-in-with-electromagnetic-brake-17bk05-07
+    type: step
+
+  stepper_driver/dm556rs:
+    desc: Modbus RS485 Stepper Driver 1.0-5.6A 24-48VDC for Nema 17, 23, 24 Stepper Motor
+    vendor: stepperonline
+    sku: DM556RS
+    url: https://www.omc-stepperonline.com/modbus-rs485-stepper-driver-1-0-5-6a-24-48vdc-for-nema-17-23-24-steppermotor-dm556rs
+    type: step
+    ros:
+      driver: https://github.com/openvmp/stepper_driver_em2rs.git
