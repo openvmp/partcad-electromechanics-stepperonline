@@ -1,5 +1,7 @@
 desc: STEPPERONLINE
 url: https://stepperonline.com/
+cover:
+  part: stepper/nema17-72Ncm-with-brake
 parts:
   brushless_driver/bld510s:
     desc: Digital Brushless DC Motor Driver 18V-50VDC Max 10A 200W
